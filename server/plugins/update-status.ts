@@ -7,8 +7,8 @@ import moment from 'moment'
 export default defineNitroPlugin(() => {
   const scheduler = useScheduler()
   const fetchInterval = 1
-  const startTime = moment('2024-04-09 00:00:00')
-  const endTime = moment('2024-04-10 00:00:00')
+  const startTime = moment('2024-04-10 00:00:00')
+  const endTime = moment('2024-04-21 00:00:00')
 
   scheduler
     .run(async () => {
